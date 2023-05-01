@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/c775ac9d8b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping_Card</title>
+</head>
+<body>
+    <main class="container-fluid gap-3 overflow-x-hidden">
+    <div class="row row-cols-1 row-cols-md-4 g-4 row-cols-sm-2">
+        <!-- 1st product -->
+        <div class="col">
+          <div class="card">
+            <img src="images/f1.jpg" class="card-img-top z-1" alt="photo">
+            <img src="images/f2.jpg" class="card-img-top position-absolute" alt="photo">
+
+
+            <div class="card-body">
+              <div class="d-flex justify-content-between pb-2">
+                <h5 class="card-title text-center text-info">SHIRT</h5>
+               <h5 class="pe-2" id="addedProduct-1">1</h5>
+              </div>
+              <div class="d-grid gap-2 d-flex justify-content-between pb-2 m-0">
+                <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="addedBtn-1">+</button>
+                <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="subtractBtn-1">-</button>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title text-center pt-2" >$<span id="product-rate1">50.00</span></h5>
+                <button type="button" class="btn btn-outline-success" id="total-value"><i class="fa-solid fa-cart-shopping"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 1st product end -->
+        <!-- 2nd product -->
+        <div class="col">
+          <div class="card">
+            <img src="images/f3.jpg" class="card-img-top z-1" alt="photo">
+            <img src="images/f4.jpg" class="card-img-top position-absolute" alt="photo">
+            <div class="card-body">
+                <div class="d-flex justify-content-between pb-2">
+                  <h5 class="card-title text-center text-info">SHIRT</h5>
+                 <h5 class="pe-2" id="addedProduct-2">1</h5>
+                </div>
+                <div class="d-grid gap-2 d-flex justify-content-between pb-2 m-0">
+                  <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="addedBtn-2">+</button>
+                  <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="subtractBtn-2">-</button>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-center pt-2">$<span id="product-rate2">60.00</span></h5>
+                  <button type="button" class="btn btn-outline-success" id="total-value2"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- 2nd product end -->
+        <!-- 3rd product -->
+
+        <div class="col">
+          <div class="card">
+            <img src="images/f5.jpg" class="card-img-top z-1" alt="photo">
+            <img src="images/f6.jpg" class="card-img-top position-absolute" alt="photo">
+
+            <div class="card-body">
+                <div class="d-flex justify-content-between pb-2">
+                  <h5 class="card-title text-center text-info">SHIRT</h5>
+                 <h5 class="pe-2" id="addedProduct-3">1</h5>
+                </div>
+                <div class="d-grid gap-2 d-flex justify-content-between pb-2 m-0">
+                  <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="addedBtn-3">+</button>
+                  <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="subtractBtn-3">-</button>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-center pt-2" >$<span id="product-rate3">50.00</span></h5>
+                  <button type="button" class="btn btn-outline-success" id="total-value3"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- 3rd product end -->
+        <!-- 4th product -->
+
+        <div class="col">
+          <div class="card">
+            <img src="images/n1.jpg" class="card-img-top z-1" alt="photo">
+            <img src="images/n2.jpg" class="card-img-top position-absolute" alt="photo">
+            <div class="card-body">
+                <div class="d-flex justify-content-between pb-2">
+                  <h5 class="card-title text-center text-info">SHIRT</h5>
+                 <h5 class="pe-2" id="addedProduct-4">1</h5>
+                </div>
+                <div class="d-grid gap-2 d-flex justify-content-between pb-2 m-0">
+                  <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="addedBtn-4">+</button>
+                  <button class="btn btn-outline-primary pb-1 font-monospace" type="button" id="subtractBtn-4">-</button>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-center pt-2">$<span id="product-rate4">75.00</span></h5>
+                  <button type="button" class="btn btn-outline-success" id="total-value4"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+     <div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Shop Now</h5>
+              <h6 class="mb-2 text-body-secondary">Buy More Than 3 Product You Will Get 20% Discount</h6>
+              <h2 class="fw-bolder text-center" >$<span id="total-Amount">00</span></h2>
+              <div class="d-flex justify-content-between gap-2">
+                <a href="sucsess.html" class="btn btn-outline-success disabled" type="button">Buy</a>
+
+                <a href="reject.html" class="btn btn-outline-danger" type="button">cancel</a>
+              </div>
+            </div>
+          </div>
+      </div>
+        <!-- 4th product end -->
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html> 
